@@ -41,7 +41,7 @@ $config = [
             </div>
         <?php endforeach; ?>
     </div>
-    <h1>Large Images</h1>
+    <h1>4 Large Images</h1>
 
     <?php foreach ($config['local_images'] as $image): ?>
         <img class="local-image" src="images/<?php echo $image['name']; ?>" alt="<?php echo $image['name']; ?>">
